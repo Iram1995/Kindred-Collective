@@ -14,7 +14,7 @@
       BASIC PAGE INFORMATION
 ============================== -->
     <!-- PAGE TITLE -->
-      <title>Your Kindred Seed</title>   
+      <title>Your Kindred Collective</title>   
     
   
      
@@ -322,59 +322,18 @@ function googleTranslateElementInit() {
           
           <!-- LOGIN FORM -->
           <div class="modal-body" id="login">
-             <form class="form-horizontal" role="form" autocomplete="off" data-toggle="validator" method="POST" action="visitor/index.php" novalidate="true">
-             <!--  <form class="form-horizontal" role="form" autocomplete="off" data-toggle="validator" method="POST" novalidate="true">-->
-
-                  <div class="form-group">
-                    
-                      <!-- E-MAIL INPUT -->
-                      <div class="input-group col-xs-12">
-                        
-                         <!-- ICON -->
-                         
-                         
-                         <!-- INPUT -->
-                         <input type="text" class="form-control" name="luser" id="luser" placeholder="Username" required="">
-                      </div>
-                      
-                      <!-- ERROR MESSAGE BOX -->
-                      <div class="help-block with-errors"></div>
-                  </div>
-                  
-                  <div class="form-group">
-                    
-                      <!-- PASSWORD INPUT -->
-                      <div class="input-group col-xs-12">
-                        
-                          <!-- ICON -->
-                  
-                          
-                          <!-- INPUT -->
-                          <input type="password" class="form-control" name="lpass" id="lpass" placeholder="password" required="">
-						  <input name="LoginForm[rememberMe]" id="LoginForm_rememberMe" value="0" type="hidden">
-                      </div>
-                      
-                      <!-- ERROR MESSAGE BOX -->
-                      <div class="help-block with-errors"></div>
-                  </div>
-                  
-                  <div class="input-group col-xs-12">
-                    <input type="hidden" name="login" value="1">
-                      <!-- SUBMIT BUTTON -->
-					  <!---     <button type="submit" class="btn btn-success col-xs-12"  name="yt2" value="Login"  >--->
-           <!--- <input class="btn block btn-success col-xs-12" type="submit" name="yt2" value="Login" />     --->
-		    <button type="submit" name="yt2" class="btn btn-success col-xs-12" style="pointer-events: all; cursor: pointer;" onclick="RedirectToDashBoard(luser,lpass)">
-                                                  
-                            <!-- ICON -->
-                            <span class="icon_profile"></span>
-                            
-                            <!-- BUTTON TEXT -->
-                            Login                      </button>
-                  </div>
-                  
-                  <!--CHANGE FORM TO PASSWORD REMINDER-->
-                  <p class="other" id="gotoRemind">Forgot your password?</p>
-              </form>
+          <form method="post" action="visitor/login.php">
+                            <fieldset>
+                                <div class="form-group">
+                                    <input class="form-control" placeholder="E-mail" name="email" type="email" autofocus>
+                                </div>
+                                <div class="form-group">
+                                    <input class="form-control" placeholder="Password" name="password" type="password" value="">
+                                </div>
+                                <!-- Change this to a button or input when using this as a form -->
+                                <button type="submit"  class="btn btn-lg btn-success btn-block">Login</button>
+                            </fieldset>
+                        </form>
           </div>
           
       
@@ -750,7 +709,7 @@ function googleTranslateElementInit() {
             <!-- MODAL SUBTITLE -->
             <h6>&nbsp;</h6>
           </div>
-<p>Your Eternal Seed  (YES) is a private association of consenting individuals 18 years of age and above who willingly and knowingly have come together for charitable purposes.</p>
+<p>Your Kindred Collective  (YES) is a private association of consenting individuals 18 years of age and above who willingly and knowingly have come together for charitable purposes.</p>
         <p>Participants have chosen to exercise their right to freely give to others who have joined with the same purpose and understanding. Access to the&nbsp;<strong>YES </strong>website and participation in the activity are by DIRECT, PERSONAL INVITATION ONLY. If you have been invited to view the website, you are a special person indeed and have been given a tremendous gift, perhaps far greater than you can imagine.</p>
         <p>Please know that&nbsp;<strong>YES&nbsp;</strong>is not an investment club, not a business, not MLM, not a company or corporation, not a commercial enterprise of any kind whatsoever, nor do its activities include the solicitation of anything.&nbsp; There are no investments here, no paychecks, no products or services to sell, no seminars to attend, no tapes or manuals to buy, and no one MAKES or EARNS any money.</p>
         <p>There are no profit making benefits of any kind associated with this activity.&nbsp; No benefit or return of any nature is expressed or implied and no promises or guarantees of any such return are permitted to be made by any participant of this activity.</p>

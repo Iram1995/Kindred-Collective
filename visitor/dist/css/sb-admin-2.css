@@ -3,16 +3,17 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
-body {
+ body {
   background-color: #f8f8f8;
 }
 #wrapper {
+  background-color: #858688;
   width: 100%;
 }
 .navbar-header {
   padding-left: 3.5%;
   padding-right: 3.95%;
-  background-color: #33abcc;
+  background-color: #eed8cd;
 }
 #page-wrapper {
   padding: 0 15px;
@@ -139,7 +140,7 @@ i.fa.fa-caret-down{
   color: black !important;
 }
 .navbar-default {
-  background-color: #33abcc;
+  background-color:  #eed8cd;
 }
 .navbar-default.sidebar {
   background-color: #858688;

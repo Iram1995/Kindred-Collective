@@ -285,63 +285,26 @@ function googleTranslateElementInit() {
             
           </div>
           
+         
           <!-- LOGIN FORM -->
           <div class="modal-body" id="login">
-             <form class="form-horizontal" role="form" autocomplete="off" data-toggle="validator" method="POST" action="visitor/index.php" novalidate="true">
-             <!--  <form class="form-horizontal" role="form" autocomplete="off" data-toggle="validator" method="POST" novalidate="true">-->
-
-                  <div class="form-group">
-                    
-                      <!-- E-MAIL INPUT -->
-                      <div class="input-group col-xs-12">
-                        
-                         <!-- ICON -->
-                         
-                         
-                         <!-- INPUT -->
-                         <input type="text" class="form-control" name="luser" id="luser" placeholder="Username" required="">
-                      </div>
-                      
-                      <!-- ERROR MESSAGE BOX -->
-                      <div class="help-block with-errors"></div>
-                  </div>
-                  
-                  <div class="form-group">
-                    
-                      <!-- PASSWORD INPUT -->
-                      <div class="input-group col-xs-12">
-                        
-                          <!-- ICON -->
-                  
-                          
-                          <!-- INPUT -->
-                          <input type="password" class="form-control" name="lpass" id="lpass" placeholder="password" required="">
-						  <input name="LoginForm[rememberMe]" id="LoginForm_rememberMe" value="0" type="hidden">
-                      </div>
-                      
-                      <!-- ERROR MESSAGE BOX -->
-                      <div class="help-block with-errors"></div>
-                  </div>
-                  
-                  <div class="input-group col-xs-12">
-                    <input type="hidden" name="login" value="1">
-                      <!-- SUBMIT BUTTON -->
-					  <!---     <button type="submit" class="btn btn-success col-xs-12"  name="yt2" value="Login"  >--->
-           <!--- <input class="btn block btn-success col-xs-12" type="submit" name="yt2" value="Login" />     --->
-		    <button type="submit" name="yt2" class="btn btn-success col-xs-12" style="pointer-events: all; cursor: pointer;" onclick="RedirectToDashBoard(luser,lpass)">
-                                           <!-- ICON -->
-                            <span class="icon_profile"></span>
-                            
-                            <!-- BUTTON TEXT -->
-                            Login                      </button>
-                  </div>
-                  
-                  <!--CHANGE FORM TO PASSWORD REMINDER-->
-                  <p class="other" id="gotoRemind">Forgot your password?</p>
-              </form>
+          <form method="post" action="visitor/login.php">
+                            <fieldset>
+                                <div class="form-group">
+                                    <input class="form-control" placeholder="E-mail" name="email" type="email" autofocus>
+                                </div>
+                                <div class="form-group">
+                                    <input class="form-control" placeholder="Password" name="password" type="password" value="">
+                                </div>
+                                <!-- Change this to a button or input when using this as a form -->
+                                <button type="submit"  class="btn btn-lg btn-success btn-block">Login</button>
+                            </fieldset>
+                        </form>
           </div>
           
       
+          
+          <!-- PASSWORD REMINDER FORM -->
           
           <!-- PASSWORD REMINDER FORM -->
           <div class="modal-body noopacity nodisplay" id="remind">
@@ -740,8 +703,8 @@ function googleTranslateElementInit() {
                     <div class="container anim-fade-up animated fadeInUp" style="opacity: 1;"> 
                         <!-- CREDITS - HELP US SPREAD THE LOVE :-) -->                         
                         <div class="col-sm-3 col-xs-12 hidden-xs">Your Kindred Collective 
-                            <!-- <br><span id="siteseal"><script async="" type="text/javascript" src="./Your Eternal Seed_files/getSeal"> -->
-							<!-- </script><img style="cursor:pointer;cursor:hand" src="./Your Eternal Seed_files/siteseal_gd_3_h_l_m.gif" onclick="verifySeal();" alt="SSL site seal - click to verify"></span> -->
+                            <!-- <br><span id="siteseal"><script async="" type="text/javascript" src="js/getSeal"> -->
+							<!-- </script><img style="cursor:pointer;cursor:hand" src="img/siteseal_gd_3_h_l_m.gif" onclick="verifySeal();" alt="SSL site seal - click to verify"></span> -->
                          </div>                         
                         <!-- SOCIAL MEDIA -->                         
                          <div class="col-sm-6">  

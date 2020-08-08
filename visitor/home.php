@@ -14,7 +14,8 @@ $userid = $_SESSION['userid'];
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Kindred Collective Visitor Dashboard  - Home</title>
+    <title>Your Kindred Collective Visitor Dashboard - Home</title>
+
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -40,75 +41,229 @@ $userid = $_SESSION['userid'];
         <?php include('php-includes/menu.php'); ?>
 
         <!-- Page Content -->
-        <div id="page-wrapper">
+        <div id="page-wrapper" style="color:white;">
             <div class="container-fluid">
+
                 <div class="row">
-                    <div class="col-lg-12">
-                        <h1 class="page-header">Welcome</h1>
-                    </div>
+                   <div style="padding: 2%;" class="col-lg-3">
+                   <div class="row" style="padding: 15%;background-color: #858688;">
+               <span> <i class="fas fa-dollar-sign" style="background-color: #da593536;
+    border: 2px solid #4a3343;
+    font-size: large;
+    border-radius: 48%;
+    padding: 4%;">$</i><span><span> Level 1 Bonus</span>
+    <br/>
+     <span> <i class="fas fa-dollar-sign" style="background-color: #da593536;
+    border: 2px solid #4a3343;
+    font-size: xx-large;
+    border-radius: 48%;
+    padding: 4%;visibility: hidden;">$</i><span><span>0 $</span>
+              
+            </div>
+            <div class="row" style="padding: 15%;background-color: #858688;">
+                <span> <i class="fas fa-dollar-sign" style="background-color: #da593536;
+    border: 2px solid #4a3343;
+    font-size: large;
+    border-radius: 48%;
+    padding: 4%;">$</i><span><span> Level 2 Bonus
+     <br/>
+     <span> <i class="fas fa-dollar-sign" style="background-color: #da593536;
+    border: 2px solid #4a3343;
+    font-size: xx-large;
+    border-radius: 48%;
+    padding: 4%;visibility: hidden;">$</i><span><span>0 $</span>
+                                
+            </div>                
+            <div class="row" style="padding: 15%;background-color: #858688;">
+                <span> <i class="fas fa-dollar-sign" style="background-color: #da593536;
+    border: 2px solid #4a3343;
+    font-size: large;
+    border-radius: 48%;
+    padding: 4%;">$</i><span><span> Level 3 Bonus
+     <br/>
+     <span> <i class="fas fa-dollar-sign" style="background-color: #da593536;
+    border: 2px solid #4a3343;
+    font-size: xx-large;
+    border-radius: 48%;
+    padding: 4%;visibility: hidden;">$</i><span><span>0 $</span>
+                                  
+            </div>
+            <div class="row" style="padding: 15%;background-color: #858688;">
+                <span> <i class="fas fa-dollar-sign" style="background-color: #da593536;
+    border: 2px solid #4a3343;
+    font-size: large;
+    border-radius: 48%;
+    padding: 4%;">$</i><span><span> Level 4 Bonus
+     <br/>
+     <span> <i class="fas fa-dollar-sign" style="background-color: #da593536;
+    border: 2px solid #4a3343;
+    font-size: xx-large;
+    border-radius: 48%;
+    padding: 4%;visibility: hidden;">$</i><span><span>0 $</span>
+                                  
+            </div>
+
+                         
+
+</div>
+<div style="padding: 2%;" class="col-lg-9">
                     <!-- /.col-lg-12 -->
+                    <div class="row" style="background-color: #858688;">
+                        <div class="col-lg-3" style="padding: 3%;">
+                        <h5>Current Balance</h5>
+                        <h5>$ 0</h5>
+                        <h5>Account For <span style="color:#f4b77e;">Website</span></h5>
+                        </div>
+                        <div class="col-lg-3" style="padding: 3%;">
+                        <h5>Level 1 Bonus</h5>
+                        <h5>$ 0</h5>
+                        <h5>Bonus From <span style="color:#f4b77e;">Website</span></h5>
+                        </div>
+                        <div class="col-lg-3" style="padding: 3%;">
+                        <h5>Level 2 Bonus</h5>
+                        <h5>$ 0</h5>
+                        <h5>Bonus From <span style="color:#f4b77e;">Website</span></h5>
+                        </div>
+                        <div class="col-lg-3" style="padding: 3%;">
+                        <h5>Level 3 Bonus</h5>
+                        <h5>$ 0</h5>
+                        <h5>Bonus From <span style="color:#f4b77e;">Website</span></h5>
+                        </div>
+                       
+                </div>
+                <br/>
+
+                <div class="row" >
+                        <div class="col-lg-3" style="padding: 3%;background-color: #858688;">
+                        <h5>Membership Type </h5>
+                        <h3>Plan B</h3>
+                        </div>
+                        <div class="col-lg-3" style="padding: 3%;background-color: #858688;">
+                        <h5>Member Since</h5>
+                        <h3>---</h3>
+                        </div>
+                        <div class="col-lg-3" style="padding: 3%;background-color: #858688;">
+                        <h5>Direct Referrals</h5>
+                        <h3>0</h3>
+                        </div>
+                        <div class="col-lg-3" style="padding: 3%;background-color: #858688;">
+                        <h5>Total Referrals</h5>
+                        <h3>0</h3>
+                        </div>
+                </div>
+                <br/>
+                <div class="row" style="background-color: #858688;">
+                        <div class="col-lg-4" style="padding: 3%;">
+                        <h5>Cash Out</h5>
+                        <h5>$ 0.00</h5>
+                        <h5 style="color:#c7cbff"> <span style="color:#f4b77e;">Pending: </span>Website</h5>
+                        </div>
+                        <div class="col-lg-4" style="padding: 3%;">
+                        <h5>Cash Out</h5>
+                        <h5>$ 0.00</h5>
+                        <h5 style="color:#c7cbff"> <span style="color:#68d9af">Approval: </span>Website</h5>
+                        </div>
+                        <div class="col-lg-4" style="padding: 3%;">
+                        <h5>Cash Out</h5>
+                        <h5>$ 0.00</h5>
+                        <h5 style="color:#c7cbff"> <span style="color:#8f4053">Approval: </span>Website</h5>
+                        </div>
+                       
+                </div>
+                <br/>
+                <div class="row" style="background-color: #858688;">
+                        <div class="col-lg-6" style="padding: 3%;">
+                        
+                        <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">USD</th>
+      <th scope="col">EURO</th>
+      <th scope="col">GBP</th>
+      <th scope="col">CNY</th>
+    </tr>
+  </thead>
+  <tbody>
+                         <tr>
+                            <th style="width: 30%;">BTC</th>
+                            <td></td>
+                            <td></td>
+                            <td>0</td>
+                        </tr>
+                        <tr>
+                           <th style="width: 30%;">ETH</th>
+                            <td></td>
+                            <td></td>
+                            <td>0</td>
+                        </tr>
+                        <tr>
+                            <th style="width: 30%;">UTC</th>
+                            <td></td>
+                            <td></td>
+                            <td>0</td>
+                        </tr>
+                        <tr>
+                            <th style="width: 30%;">XMR</th>
+                            <td></td>
+                            <td></td>
+                            <td>0</td>
+                        </tr>
+                        <tr>
+                            <th style="width: 30%;">DASH</th>
+                            <td></td>
+                            <td></td>
+                            <td>0</td>
+                        </tr>
+</tbody>
+</table>
+                    </div>
+                        <div class="col-lg-6" style="padding: 3%;">
+
+                        <h5>Rerreral Team</h5>
+                        <hr/>
+                        <table class="table table-bordered">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">PICTURE</th>
+      <th scope="col">NAME</th>
+      <th scope="col">EMAIL</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>---</td>
+      <td>---</td>
+      <td>---</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>---</td>
+      <td>---</td>
+      <td>---</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>---</td>
+      <td>---</td>
+      <td>---</td>
+    </tr>
+</tbody></table>
+                        
+                           </div>
+                </div>
+                       
+                </div>
+
                 </div>
                 <!-- /.row -->
-                <div class="row">
-                	 <?php
-						$query = mysqli_query($con,"select * from income where userid='$userid'");
-						$result = mysqli_fetch_array($query);
-					?>
-                	<div class="col-lg-3">
-                    	<div class="panel panel-info">
-                        	<div class="panel-heading">
-                            	<h4 class="panel-title">Your Referral URL</h4>
-                            </div>
-                            <div class="panel-body">
-                            	<?php 
-								echo $result['day_bal']
-								?>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                    	<div class="panel panel-success">
-                        	<div class="panel-heading">
-                            	<h4 class="panel-title">Your inviter</h4>
-                            </div>
-                            <div class="panel-body">
-                            	<?php 
-								echo $result['current_bal']
-								?>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                    	<div class="panel panel-danger">
-                        	<div class="panel-heading">
-                            	<h4 class="panel-title">Your Positions</h4>
-                            </div>
-                            <div class="panel-body">
-                            	<?php 
-								echo $result['total_bal']
-								?>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                    	<div class="panel panel-warning">
-                        	<div class="panel-heading">
-                            	<h4 class="panel-title">Your Invites</h4>
-                            </div>
-                            <div class="panel-body">
-                            	<?php 
-								echo  mysqli_num_rows(mysqli_query($con,"select * from pin_list where userid='$userid' and status='open'"));
-								?>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+               
             </div>
             <!-- /.container-fluid -->
         </div>
         <!-- /#page-wrapper -->
 
-    </div>
     <!-- /#wrapper -->
 
     <!-- jQuery -->

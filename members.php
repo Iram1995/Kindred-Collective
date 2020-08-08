@@ -14,7 +14,7 @@
       BASIC PAGE INFORMATION
 ============================== -->
     <!-- PAGE TITLE -->
-      <title>Your Eternal Seed</title>   
+      <title>Your Kindred Collective</title>   
     
   
      
@@ -148,7 +148,7 @@ function googleTranslateElementInit() {
                   <p align="center" class="style11"><font
             face="Arial,Helvetica,sans-serif" size="4"><strong>Welcome Manicka Thomas (manicka)</strong></font></p>
                         <p align="center" class="style11"><strong><font size="4" face="Arial,Helvetica,sans-serif"><br>
-                        </font></strong><span class="style13">Your Referral URL :</span> <span class="style13"><a href="http://www.youreternalseed.com?id=manicka" target="_blank">http://www.youreternalseed.com?id=manicka</a></span></p>
+                        </font></strong><span class="style13">Your Referral URL :</span> <span class="style13"><a href="(http://kindred.blackbeautyteam.com/?id=manicka" target="_blank">(http://kindred.blackbeautyteam.com/</a></span></p>
                         <p align="center" class="style15">Your inviter is Donslow Brown (DonBrown)</p>
                         <p align="center" class="style15">You have 1 Invitees</p>
                         <p align="center" class="style11"> </p>
@@ -283,7 +283,7 @@ function googleTranslateElementInit() {
             <!-- MODAL SUBTITLE -->
             <h6>&nbsp;</h6>
           </div>
-<p>Your Eternal Seed  (YES) is a private association of consenting individuals 18 years of age and above who willingly and knowingly have come together for charitable purposes.</p>
+<p>Your Kindred Collective (YES) is a private association of consenting individuals 18 years of age and above who willingly and knowingly have come together for charitable purposes.</p>
         <p>Participants have chosen to exercise their right to freely give to others who have joined with the same purpose and understanding. Access to the&nbsp;<strong>YES </strong>website and participation in the activity are by DIRECT, PERSONAL INVITATION ONLY. If you have been invited to view the website, you are a special person indeed and have been given a tremendous gift, perhaps far greater than you can imagine.</p>
         <p>Please know that&nbsp;<strong>YES&nbsp;</strong>is not an investment club, not a business, not MLM, not a company or corporation, not a commercial enterprise of any kind whatsoever, nor do its activities include the solicitation of anything.&nbsp; There are no investments here, no paychecks, no products or services to sell, no seminars to attend, no tapes or manuals to buy, and no one MAKES or EARNS any money.</p>
         <p>There are no profit making benefits of any kind associated with this activity.&nbsp; No benefit or return of any nature is expressed or implied and no promises or guarantees of any such return are permitted to be made by any participant of this activity.</p>
@@ -291,7 +291,7 @@ function googleTranslateElementInit() {
         <p>Anyone seeking to profit from their endeavors are encouraged to investigate the many profit-making opportunities available today - no such program is offered here. Participants give freely of themselves and expect nothing in return.</p>
         <p>Guidelines have been established to maintain the integrity and high standards of this activity and to enforce respect for participants and the law as it pertains to gifting. Participants are prohibited from representing the activity of <strong>YES&nbsp;</strong>as anything other than as stated above.&nbsp; Maintaining the integrity of this activity and the privacy of its participants are foremost to ensure that this activity remains viable for the long-term.&nbsp; It is our sincere wish and hope that all who join us will be visited by abundance very soon.</p>
         <p>1.&nbsp;<strong>YES</strong>&nbsp;has a Zero Tolerance for Spam. Any Member violating this will automatically be terminated from our Membership.&nbsp;</p>
-        <p>2.&nbsp;<strong>YES</strong>&nbsp;does not tolerate members sending out our web site address (<a href="http://youreternalseed.com" target="_blank">http://youreternalseed.com</a>) in any form of public marketing campaign such as post cards or letters, phone or fax blasts and ALL other sources of advertising including message boards and search engines.&nbsp;<strong>YES</strong>&nbsp;is a private activity and members must invite privately. Violation of this policy will result in automatic termination from our community.</p>
+        <p>2.&nbsp;<strong>YES</strong>&nbsp;does not tolerate members sending out our web site address (<a href="(http://kindred.blackbeautyteam.com/" target="_blank">(http://kindred.blackbeautyteam.com/</a>) in any form of public marketing campaign such as post cards or letters, phone or fax blasts and ALL other sources of advertising including message boards and search engines.&nbsp;<strong>YES</strong>&nbsp;is a private activity and members must invite privately. Violation of this policy will result in automatic termination from our community.</p>
         <p>3.&nbsp;<strong>YES</strong>&nbsp;prohibits all members to send out the Conference Call phone number and access code in any public form of advertising (see above). Violation of this will result in automatic termination.</p>
         <p>4. No public meetings. Violation of this will result in automatic termination.</p>
         <p>5. No members can give their own Conference Call or Training Calls. Violation of this will result in automatic termination.&nbsp;<strong>YES</strong>&nbsp;cannot and will not monitor outside Conference Calls. We would not be able to control wrongful presentations of the true meaning of gifting and&nbsp;<strong>YES</strong>.</p>

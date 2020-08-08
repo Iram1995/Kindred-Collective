@@ -11,7 +11,7 @@
       BASIC PAGE INFORMATION
 ============================== -->
     <!-- PAGE TITLE -->
-      <title>Your Eternal Seed</title>
+      <title>Your Kindred Collective</title>
 
 <!-- =========================
       FAV & TOUCH ICONS  
