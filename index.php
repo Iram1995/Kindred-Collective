@@ -91,7 +91,7 @@
            	<a href="joinyes.php" class="btn btn-primary">Join us</a> 
                 
                 <!-- DOWNLOAD BUTTON - PLACE LINK TO YOUR APP HERE -->
-              <button type="button" class="btn btn-success" data-toggle="modal" data-target="#LogIn">Member Login</button>  
+              <button type="button" class="btn btn-success" data-toggle="modal" data-target="#LogIn">Join the Collective</button>  
               	            </div>
             
             <!-- "BURGER MENU" FOR RESPONSIVE VIEW -->
@@ -279,7 +279,7 @@ function googleTranslateElementInit() {
             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
             
             <!-- MODAL TITLE -->
-            <h5 class="modal-title" id="myModalLabel">Member Login</h5>
+            <h5 class="modal-title" id="myModalLabel">Join the Collective</h5>
             
             <!-- MODAL SUBTITLE -->
             

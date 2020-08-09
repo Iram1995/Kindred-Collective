@@ -102,6 +102,20 @@ $userid = $_SESSION['userid'];
     padding: 4%;visibility: hidden;">$</i><span><span>0 $</span>
                                   
             </div>
+            <div class="row" style="padding: 15%;background-color: #858688;">
+                <span> <i class="fas fa-dollar-sign" style="background-color: #da593536;
+    border: 2px solid #4a3343;
+    font-size: large;
+    border-radius: 48%;
+    padding: 4%;">$</i><span><span> Level 5 Bonus
+     <br/>
+     <span> <i class="fas fa-dollar-sign" style="background-color: #da593536;
+    border: 2px solid #4a3343;
+    font-size: xx-large;
+    border-radius: 48%;
+    padding: 4%;visibility: hidden;">$</i><span><span>0 $</span>
+                                  
+            </div>
 
                          
 
