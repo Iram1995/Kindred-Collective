@@ -7,7 +7,7 @@
       BASIC PAGE INFORMATION
 ============================== -->             
             <!-- PAGE TITLE -->             
-            <title>Your Kindred Collective</title>             
+            <title>The Kindred Collective</title>             
             <!-- ALLOW GOOGLE TO INDEX YOUR PAGE -->             
             <meta name="ROBOTS" content="INDEX, FOLLOW"> 
             <!-- =========================
@@ -702,7 +702,7 @@ function googleTranslateElementInit() {
                 <footer> 
                     <div class="container anim-fade-up animated fadeInUp" style="opacity: 1;"> 
                         <!-- CREDITS - HELP US SPREAD THE LOVE :-) -->                         
-                        <div class="col-sm-3 col-xs-12 hidden-xs">Your Kindred Collective 
+                        <div class="col-sm-3 col-xs-12 hidden-xs">The Kindred Collective 
                             <!-- <br><span id="siteseal"><script async="" type="text/javascript" src="js/getSeal"> -->
 							<!-- </script><img style="cursor:pointer;cursor:hand" src="img/siteseal_gd_3_h_l_m.gif" onclick="verifySeal();" alt="SSL site seal - click to verify"></span> -->
                          </div>                         
@@ -738,7 +738,7 @@ function googleTranslateElementInit() {
             <!-- MODAL SUBTITLE -->
             <h6>&nbsp;</h6>
           </div>
-<p>Your Kindred Collective  (YES) is a private association of consenting individuals 18 years of age and above who willingly and knowingly have come together for charitable purposes.</p>
+<p>The Kindred Collective  (YES) is a private association of consenting individuals 18 years of age and above who willingly and knowingly have come together for charitable purposes.</p>
         <p>Participants have chosen to exercise their right to freely give to others who have joined with the same purpose and understanding. Access to the&nbsp;<strong>YES </strong>website and participation in the activity are by DIRECT, PERSONAL INVITATION ONLY. If you have been invited to view the http://kindred.blackbeautyteam.com/, you are a special person indeed and have been given a tremendous gift, perhaps far greater than you can imagine.</p>
         <p>Please know that&nbsp;<strong>YES&nbsp;</strong>is not an investment club, not a business, not MLM, not a company or corporation, not a commercial enterprise of any kind whatsoever, nor do its activities include the solicitation of anything.&nbsp; There are no investments here, no paychecks, no products or services to sell, no seminars to attend, no tapes or manuals to buy, and no one MAKES or EARNS any money.</p>
         <p>There are no profit making benefits of any kind associated with this activity.&nbsp; No benefit or return of any nature is expressed or implied and no promises or guarantees of any such return are permitted to be made by any participant of this activity.</p>

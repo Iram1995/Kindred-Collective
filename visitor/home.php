@@ -14,8 +14,9 @@ $userid = $_SESSION['userid'];
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Your Kindred Collective Visitor Dashboard - Home</title>
+    <title>The Kindred Collective Visitor Dashboard - Home</title>
 
+   
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -32,6 +33,9 @@ $userid = $_SESSION['userid'];
  
 
 </head>
+<style>
+
+</style>
 
 <body>
 
@@ -45,7 +49,7 @@ $userid = $_SESSION['userid'];
             <div class="container-fluid">
 
                 <div class="row">
-                   <div style="padding: 2%;" class="col-lg-3">
+                   <!-- <div style="padding: 2%;" class="col-lg-3">
                    <div class="row" style="padding: 15%;background-color: #858688;">
                <span> <i class="fas fa-dollar-sign" style="background-color: #da593536;
     border: 2px solid #4a3343;
@@ -119,54 +123,99 @@ $userid = $_SESSION['userid'];
 
                          
 
-</div>
-<div style="padding: 2%;" class="col-lg-9">
+</div> -->
+<div style="padding: 2%;" class="col-lg-12">
                     <!-- /.col-lg-12 -->
-                    <div class="row" style="background-color: #858688;">
-                        <div class="col-lg-3" style="padding: 3%;">
-                        <h5>Current Balance</h5>
-                        <h5>$ 0</h5>
-                        <h5>Account For <span style="color:#f4b77e;">Website</span></h5>
+                    <div class="row justify-content-center">
+                        <div class="col-lg-4" style="">
+                        
+                          <div style="background-color: #858688;padding:3%">
+                              <h4 >Member Since</4>
+                              <h5>------</h5>   
+                              <h5>------</h5> 
+                              <h5>------</h5> 
+                              <h5>------</h5> 
+                          </div>
                         </div>
-                        <div class="col-lg-3" style="padding: 3%;">
-                        <h5>Level 1 Bonus</h5>
-                        <h5>$ 0</h5>
-                        <h5>Bonus From <span style="color:#f4b77e;">Website</span></h5>
-                        </div>
-                        <div class="col-lg-3" style="padding: 3%;">
-                        <h5>Level 2 Bonus</h5>
-                        <h5>$ 0</h5>
-                        <h5>Bonus From <span style="color:#f4b77e;">Website</span></h5>
-                        </div>
-                        <div class="col-lg-3" style="padding: 3%;">
-                        <h5>Level 3 Bonus</h5>
-                        <h5>$ 0</h5>
-                        <h5>Bonus From <span style="color:#f4b77e;">Website</span></h5>
-                        </div>
-                       
-                </div>
-                <br/>
+                        <div class="col-lg-4" style="">
+                          <div style="background-color: #858688;padding:3%">
+                            <h4>Person gifted to - email</h4>
+                            <h5>------</h5>   
+                            <h5>------</h5> 
+                            <h5>------</h5> 
+                            <h5>------</h5> 
 
-                <div class="row" >
-                        <div class="col-lg-3" style="padding: 3%;background-color: #858688;">
-                        <h5>Membership Type </h5>
-                        <h3>Plan B</h3>
+                          </div>
                         </div>
-                        <div class="col-lg-3" style="padding: 3%;background-color: #858688;">
-                        <h5>Member Since</h5>
-                        <h3>---</h3>
+                        <div class="col-lg-4" style="">
+                          <div style="background-color: #858688;padding:3%">
+                              <h4>Paid Status</h4>
+                              <h5>------</h5>   
+                              <h5>------</h5> 
+                              <h5>------</h5> 
+                              <h5>------</h5> 
+                          </div>
                         </div>
-                        <div class="col-lg-3" style="padding: 3%;background-color: #858688;">
-                        <h5>Direct Referrals</h5>
-                        <h3>0</h3>
+                                             
+                </div>
+                <br/>
+                <div class="row justify-content-center">
+                        <div class="col-lg-4" style="">
+                        
+                          <div style="background-color: #858688;padding:3%">
+                              <h4 >Board Number</4>
+                              <h5>------</h5>   
+                              <h5>------</h5> 
+                              <h5>------</h5> 
+                              <h5>------</h5> 
+                          </div>
                         </div>
-                        <div class="col-lg-3" style="padding: 3%;background-color: #858688;">
-                        <h5>Total Referrals</h5>
-                        <h3>0</h3>
+                        <div class="col-lg-4" style="">
+                          <div style="background-color: #858688;padding:3%">
+                            <h4>Paid Referrals</h4>
+                            <h5>------</h5>   
+                            <h5>------</h5> 
+                            <h5>------</h5> 
+                            <h5>------</h5> 
+                          </div>
+                        </div>
+                        <div class="col-lg-4" style="">
+                          <div style="background-color: #858688;padding:3%">
+                              <h4>Gift Amount
+</h4>
+                              <h5>------</h5>   
+                              <h5>------</h5> 
+                              <h5>------</h5> 
+                              <h5>------</h5> 
+                          </div>
+                        </div>
+                                             
+                </div>
+               
+<br/>
+                <div class="row" style="padding:1.5%" >
+                        <div class="col-lg-4" style="padding: 3%;background-color: #858688;">
+                        <h4>Confirmed Gifts</h4>
+                       <h3>----</h3>
+                       <h3>----</h3>
+                       <h3>----</h3>
+                        </div>
+                        <div class="col-lg-4" style="padding: 3%;background-color: #858688;">
+                        <h4>Unconfirmed Gifts</h4>
+                        <h3>----</h3>
+                       <h3>----</h3>
+                       <h3>----</h3>
+                        </div>
+                      
+                        <div class="col-lg-4" style="padding: 3%;background-color: #858688;">
+                        <h4>Total Gifts Received</h4>
+                        <h3>----</h3>
+                       <h3>----</h3>
+                       <h3>----</h3>
                         </div>
                 </div>
                 <br/>
-                <div class="row" style="background-color: #858688;">
+                <!-- <div class="row" style="background-color: #858688;">
                         <div class="col-lg-4" style="padding: 3%;">
                         <h5>Cash Out</h5>
                         <h5>$ 0.00</h5>
@@ -185,87 +234,7 @@ $userid = $_SESSION['userid'];
                        
                 </div>
                 <br/>
-                <div class="row" style="background-color: #858688;">
-                        <div class="col-lg-6" style="padding: 3%;">
-                        
-                        <table class="table">
-  <thead>
-    <tr>
-      <th scope="col">USD</th>
-      <th scope="col">EURO</th>
-      <th scope="col">GBP</th>
-      <th scope="col">CNY</th>
-    </tr>
-  </thead>
-  <tbody>
-                         <tr>
-                            <th style="width: 30%;">BTC</th>
-                            <td></td>
-                            <td></td>
-                            <td>0</td>
-                        </tr>
-                        <tr>
-                           <th style="width: 30%;">ETH</th>
-                            <td></td>
-                            <td></td>
-                            <td>0</td>
-                        </tr>
-                        <tr>
-                            <th style="width: 30%;">UTC</th>
-                            <td></td>
-                            <td></td>
-                            <td>0</td>
-                        </tr>
-                        <tr>
-                            <th style="width: 30%;">XMR</th>
-                            <td></td>
-                            <td></td>
-                            <td>0</td>
-                        </tr>
-                        <tr>
-                            <th style="width: 30%;">DASH</th>
-                            <td></td>
-                            <td></td>
-                            <td>0</td>
-                        </tr>
-</tbody>
-</table>
-                    </div>
-                        <div class="col-lg-6" style="padding: 3%;">
-
-                        <h5>Rerreral Team</h5>
-                        <hr/>
-                        <table class="table table-bordered">
-  <thead>
-    <tr>
-      <th scope="col">#</th>
-      <th scope="col">PICTURE</th>
-      <th scope="col">NAME</th>
-      <th scope="col">EMAIL</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>---</td>
-      <td>---</td>
-      <td>---</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>---</td>
-      <td>---</td>
-      <td>---</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>---</td>
-      <td>---</td>
-      <td>---</td>
-    </tr>
-</tbody></table>
-                        
-                           </div>
+                -->
                 </div>
                        
                 </div>

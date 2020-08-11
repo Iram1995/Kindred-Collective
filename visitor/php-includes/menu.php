@@ -6,7 +6,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">Your Kindred Collective</a>
+                <a class="navbar-brand" href="#">The Kindred Collective</a>
             </div>
             <!-- /.navbar-header -->
 
@@ -36,22 +36,22 @@
                 <div class="sidebar-nav navbar-collapse">
                     <ul class="nav" id="side-menu">
                         <li>
-                            <a href="home.php"><i class="fa fa-dashboard fa-fw"></i>Members Home</a>
+                            <a href="home.php"><i class="fa fa-users" aria-hidden="true"></i></i> Members Home</a>
                         </li>
                         <li>
                             <a href="pin-request.php"><i class="fa fa-adjust fa-fw"></i>Board Placement</a>
                         </li>
                         <li>
-                            <a href="pin.php"><i class="fa fa-adjust fa-fw"></i>Member Info</a>
+                            <a href="pin.php"><i class="fa fa-info-circle" aria-hidden="true"></i> Member Info</a>
                         </li>
                         <li>
-                            <a href="join.php"><i class="fa fa-adjust fa-fw"></i>Gifting Forms</a>
+                            <a href="join.php"><i class="fa fa-gift" aria-hidden="true"></i> Gifting Forms</a>
                         </li>
                         <li>
                             <a ><i class="fa fa-adjust fa-hub"></i> Contact Support</a>
                         </li>
 						<li>
-                            <a ><i class="fa fa-adjust fa-hub"></i> Logout</a>
+                            <a ><i class="fa fa-sign-out" aria-hidden="true"></i> Logout</a>
                         </li>
 
                     </ul>

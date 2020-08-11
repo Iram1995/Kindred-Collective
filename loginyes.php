@@ -11,7 +11,7 @@
       BASIC PAGE INFORMATION
 ============================== -->
     <!-- PAGE TITLE -->
-      <title>Your Kindred Collective</title>
+      <title>The Kindred Collective</title>
 
 <!-- =========================
       FAV & TOUCH ICONS  
