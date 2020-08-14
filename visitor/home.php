@@ -126,6 +126,15 @@ $userid = $_SESSION['userid'];
 </div> -->
 <div style="padding: 2%;" class="col-lg-12">
                     <!-- /.col-lg-12 -->
+                    <div class="row justify-content-center" >
+                    <h4 style="text-align:center">Notification! Thanks for sending gift to<span style="float: right;">✕</span></h4>
+                   
+                    </div>
+                    <div class="row justify-content-center" >
+                    <h4 style="text-align:center">There is an open $25 spot on board _ would you like to re-gift?<span style="float: right;">✕</span></h4>
+                   
+                    </div>
+                    <br/>
                     <div class="row justify-content-center">
                         <div class="col-lg-4" style="">
                         
