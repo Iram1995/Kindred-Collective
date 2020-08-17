@@ -127,11 +127,15 @@ $userid = $_SESSION['userid'];
 <div style="padding: 2%;" class="col-lg-12">
                     <!-- /.col-lg-12 -->
                     <div class="row justify-content-center" >
-                    <h4 style="text-align:center">Notification! Thanks for sending gift to<span style="float: right;">✕</span></h4>
+                    <h4 style="background-color: #5a5b5c;
+    text-align: center;
+    padding: 1%;">Notification! Thanks for sending gift to<span style="float: right;">✕</span></h4>
                    
                     </div>
                     <div class="row justify-content-center" >
-                    <h4 style="text-align:center">There is an open $25 spot on board _ would you like to re-gift?<span style="float: right;">✕</span></h4>
+                    <h4 style="background-color: #5a5b5c;
+    text-align: center;
+    padding: 1%;">There is an open $25 spot on board _ would you like to re-gift?<span style="float: right;">✕</span></h4>
                    
                     </div>
                     <br/>
@@ -158,11 +162,11 @@ $userid = $_SESSION['userid'];
                         </div>
                         <div class="col-lg-4" style="">
                           <div style="background-color: #858688;padding:3%">
-                              <h4>Paid Status</h4>
-                              <h5>------</h5>   
-                              <h5>------</h5> 
-                              <h5>------</h5> 
-                              <h5>------</h5> 
+                          <h5>&nbsp;</h5>   
+                              <h5>&nbsp;</h5> 
+                              <h4>Paid</h4>                             
+                              <h5> Status</h5> 
+                              <h5>&nbsp;</h5>  
                           </div>
                         </div>
                                              

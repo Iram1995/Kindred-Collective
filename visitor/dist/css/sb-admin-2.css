@@ -22,7 +22,7 @@
 #page-wrapper {
   padding: 0 15px;
   min-height: 568px;
-  background-color: #a6a6a6;
+  background-color: #cacaca;
 }
 @media (min-width: 768px) {
   #page-wrapper {
