@@ -25,6 +25,10 @@
   background-color: #cacaca;
 }
 @media (min-width: 768px) {
+  .navbar-default.sidebar {
+    background-color: #858688;
+    min-height: 0px !important;
+}
   #page-wrapper {
     position: inherit;
     margin: 0 0 0 250px;
@@ -117,6 +121,10 @@
   padding-left: 52px;
 }
 @media (min-width: 768px) {
+  .navbar-default.sidebar {
+    background-color: #858688;
+    min-height: 0px !important;
+}
   .sidebar {
     z-index: 1;
     position: absolute;
@@ -459,6 +467,10 @@ table.dataTable thead .sorting:after {
   margin-top: 5px;
 }
 @media (max-width: 767px) {
+  .navbar-default.sidebar {
+    background-color: #858688;
+    min-height: 0px !important;
+}
   ul.timeline:before {
     left: 40px;
   }
