@@ -3,6 +3,13 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+ @import url("https://fonts.googleapis.com/css?family=Nunito");
+
+ body {
+  font-family: 'Nunito';font-size: 22px;
+  background-color: #f8f8f8;
+
+}
 body {
   background-color: #f8f8f8;
 }
@@ -12,9 +19,13 @@ body {
 #page-wrapper {
   padding: 0 15px;
   min-height: 568px;
-  background-color: white;
+  background-color: #cacaca;
 }
 @media (min-width: 768px) {
+  .navbar-default.sidebar {
+    background-color: #858688;
+    min-height: 0px !important;
+}
   #page-wrapper {
     position: inherit;
     margin: 0 0 0 250px;
@@ -83,14 +94,14 @@ body {
 .navbar-header {
   padding-left: 3.5%;
   padding-right: 3.95%;
-  background-color: #33abcc;
+  background-color: #eed8cd;
 }
 .nav>li>a {
   font-size: 15px;
   color: #dcd8d8;
 }
 .sidebar ul li a.active {
-  font-size: 15px;
+  font-size: 16px;
   color: white;
   background-color: #858688;
 }
@@ -141,10 +152,11 @@ a.navbar-brand {
   color: black !important;
 }
 .navbar-default {
-  background-color: #33abcc;}
+  background-color: #eed8cd;
+}
 .navbar-default.sidebar {
   background-color: #858688;
-  min-height: calc(100vh - 50px);
+  min-height: calc(100vh - 50px) !important;
 }
 .btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover {
   color: #fff;
@@ -455,6 +467,10 @@ table.dataTable thead .sorting:after {
   margin-top: 5px;
 }
 @media (max-width: 767px) {
+  .navbar-default.sidebar {
+    background-color: #858688;
+    min-height: 0px !important;
+}
   ul.timeline:before {
     left: 40px;
   }

@@ -49,7 +49,8 @@ require('php-includes/connect.php');
                 </div>
                 <!-- /.row -->
                 <div class="row">
-                	<div class="col-lg-3">
+                	<div class="col-lg-3" style="padding-top: 4%;">
+                    
                     	<div class="panel panel-primary">
                         	<div class="panel-heading">
                             	<h4 class="panel-title">Total Members</h4>
@@ -61,7 +62,8 @@ require('php-includes/connect.php');
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-3" style="padding-top: 4%;">
+                   
                     	<div class="panel panel-info">
                         	<div class="panel-heading">
                             	<h4 class="panel-title">New Members Request</h4>
@@ -73,17 +75,18 @@ require('php-includes/connect.php');
                             </div>
                         </div>
                     </div>
-                    <!-- <div class="col-lg-3">
+                    <div class="col-lg-3">
+                    <h4>Status</h4>
                     	<div class="panel panel-success">
                         	<div class="panel-heading">
-                            	<h4 class="panel-title">Total Pin</h4>
+                            	<h4 class="panel-title">Member Required</h4>
                             </div>
                             <div class="panel-body">
                             	<?php 
 								echo  mysqli_num_rows(mysqli_query($con,"select * from pin_list"));
 								?>
                             </div>
-                        </div><div class="panel panel-success">
+                        <!-- </div><div class="panel panel-success">
                         	<div class="panel-heading">
                             	<h4 class="panel-title">Total Pin</h4>
                             </div>

@@ -92,12 +92,12 @@ if(isset($_GET['pin_request'])){
                             </div>
                         </form>
                     </div>
-                    <div class="col-lg-8">
+                    <!-- <div class="col-lg-8">
                     
                     <img src="../img/bloom.jpeg"/>
                     
                                    
-                    </div>
+                    </div> -->
                 </div>
                 <!-- <div class="row">
                 	<div class="col-lg-6">
